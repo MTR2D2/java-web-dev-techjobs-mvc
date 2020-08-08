@@ -12,8 +12,8 @@
 
     <!-- - Use a loop to display job results in a table. -->
         <table class="table table-striped">
-            <tr th:each="job : ${jobs}">
-                <td>
+            <tr  th:each="job : ${jobs}">   <!-- row -->
+                <td > <!-- cell -->
                     <label>ID: <span th:text="${job.id}"></span></label><br>
                     <label>Name: <span th:text="${job.name}"></span></label><br>
                     <label>Employer: <span th:text="${job.employer}"></span></label><br>
