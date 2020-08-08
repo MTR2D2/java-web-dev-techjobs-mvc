@@ -18,6 +18,10 @@ import java.util.HashMap;
 @RequestMapping(value = "list")
 public class ListController {
 
+    // This controller provides functionality for users to see either a table showing
+    // all the options for the different Job fields (employer, location, coreCompetency, and positionType)
+    // or a list of details for a selected set of jobs
+
     static HashMap<String, String> columnChoices = new HashMap<>();
     static HashMap<String, Object> tableChoices = new HashMap<>();
 

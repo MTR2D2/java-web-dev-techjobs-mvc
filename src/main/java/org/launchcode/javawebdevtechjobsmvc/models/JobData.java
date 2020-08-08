@@ -16,6 +16,9 @@ import java.util.List;
  */
 public class JobData {
 
+    // JobData class reads data from the job_data.csv file and stores it in a format we can use,
+    // an ArrayList of Job objects
+
     private static final String DATA_FILE = "job_data.csv";
     private static boolean isDataLoaded = false;
 
